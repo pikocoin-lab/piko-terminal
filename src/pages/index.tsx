@@ -26,6 +26,8 @@ export default function Home() {
     <div style={{ backgroundColor: '#05070a', color: '#fff', minHeight: '100vh', padding: '0 20px' }}>
       <Head>
         <title>PIKO TERMINAL | Pro</title>
+        {/* 核心：添加这行来显示图标 */}
+        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       {/* 导航栏 */}
